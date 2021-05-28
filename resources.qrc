@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="icon_car_battery">resources/icons/car-battery.png</file>
+        <file alias="icon_car_thermometer">resources/icons/thermometer-lines.png</file>
+        <file alias="icon_car_fuel">resources/icons/fuel-consumption.png</file>
+        <file alias="icon_car_vin">resources/icons/vin-number.png</file>
+        <file alias="icon_car_throttle">resources/icons/throttle.png</file>
+        <file alias="icon_car_torque">resources/icons/torque.png</file>
+    </qresource>
+    <qresource prefix="/settings"/>
+    <qresource prefix="/">
+        <file alias="ki">android/res/drawable-hdpi/ki.jpg</file>
+        <file>resources/shaders/diagnostic_icons/black_icon_fragment.fsh</file>
+        <file>resources/files/obd2_codes.csv</file>
+    </qresource>
+</RCC>

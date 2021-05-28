@@ -276,5 +276,7 @@ compile_commands.json
 *.cxxflags
 *.cflags
 
+# linux fiels
+.directory
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,qt,qtcreator,android,objective-c,qml

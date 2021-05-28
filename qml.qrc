@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>gui/pages/HomePage.qml</file>
+        <file>gui/pages/main.qml</file>
+        <file>gui/pages/MapPage.qml</file>
+        <file>gui/pages/GaugesPage.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>gui/components/ElmGauge.qml</file>
+        <file>gui/pages/ErrorPage.qml</file>
+        <file>gui/pages/OtherInfoPage.qml</file>
+        <file>gui/components/FishSpinner.qml</file>
+        <file>gui/components/ObdLoader.qml</file>
+        <file>gui/ObdStyle.qml</file>
+        <file>gui/components/MapMarker.qml</file>
+        <file>gui/android/SplashAnimation.qml</file>
+        <file>gui/pages/Pages.qml</file>
+    </qresource>
+</RCC>
