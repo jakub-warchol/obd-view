@@ -53,7 +53,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 # Android config
 # Android OpenSSL lib
-android: include(src/android_openssl/openssl.pri)
+android: include(external_libs/android_openssl/openssl.pri)
 
 ANDROID_PACKAGE_SOURCE_DIR = $$PWD/android
 ANDROID_ABIS = armeabi-v7a arm64-v8a x86 # check it manually!!!
@@ -71,4 +71,3 @@ ios {
     # set info
     QMAKE_TARGET_BUNDLE_PREFIX = pl.edu.pwsztar
 }
-android: include(/home/jakub/Android/Sdk/android_openssl/openssl.pri)
